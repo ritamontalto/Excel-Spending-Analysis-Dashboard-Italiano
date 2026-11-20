@@ -2,7 +2,7 @@
 
 ## Sommario
 
-Prendere decisioni finanziarie efficaci richiede la stessa disciplina necessaria per una buona gestione operativa: definire gli indicatori KPI, monitorarli con costanza e individuare i principali fattori che determinano i costi. Questo progetto applica tale approccio alla gestione delle finanze personali. Ho realizzato un file Excel composto da più fogli, progettato per un nucleo familiare ipotetico, che registra le transazioni quotidiane, le consolida in riepiloghi mensili e annuali e le trasforma in una dashboard interattiva attraverso tabelle pivot, filtri slicer, grafici dinamici e menu a discesa per la ricerca dei dati. La cartella di lavoro comprende 6 anni di storico delle entrate e delle uscite (2019-2024), una panoramica mensile del 2019, un registro dettagliato delle transazioni e un budget separato dedicato ad un viaggio.
+Prendere decisioni finanziarie efficaci richiede la stessa disciplina necessaria per una buona gestione operativa: definire gli indicatori KPI, monitorarli con costanza e individuare i principali fattori che determinano i costi. Questo progetto applica tale approccio alla gestione delle finanze personali. Ho realizzato una cartella di lavoro Excel composta da più fogli, progettata per un ipotetico nucleo familiare, che registra le transazioni quotidiane, le consolida in riepiloghi mensili e annuali e le trasforma in una dashboard interattiva attraverso tabelle pivot, filtri slicer, grafici dinamici e menu a discesa per la ricerca dei dati. La cartella di lavoro comprende 6 anni di storico delle entrate e delle uscite (2019-2024), una panoramica mensile del 2019, un registro dettagliato delle transazioni e un budget separato dedicato ad un viaggio.
 
 ## Problema
 
@@ -40,9 +40,9 @@ Analisi dei risultati e raccomandazioni
 
 **Struttura e Validazione dei Dati**
 - Ho definito un elenco principale di 11 categorie di spesa e utilizzato la convalida dei dati con menu a discesa, in modo da classificare ogni transazione in maniera coerente.
-- Ho separato entrate, uscite e spese relative a un singolo viaggio, così da poterle analizzare individualmente.
-- Ho utilizzato le formule SUM per calcolare i totali e i saldi di ciascun periodo in ogni foglio.
-- Ho verificato che la somma dei totali mensili nel foglio di riepilogo annuale corrispondesse al totale delle spese del 2019 (34.483 €) e che il registro delle transazioni di febbraio coincidesse con il relativo totale mensile.
+- Ho separato entrate, uscite e spese relative ad un singolo viaggio, così da poterle analizzare individualmente.
+- Ho utilizzato le formule `SUM` per calcolare i totali e i saldi di ciascun periodo in ogni foglio.
+- Ho verificato che la somma dei totali mensili nel foglio di riepilogo annuale corrispondesse al totale delle spese del 2019 (34.483 €) e che il registro delle transazioni di Febbraio coincidesse con il relativo totale mensile.
 
 **Analisi e reportistica**
 - Ho utilizzato le tabelle pivot per riepilogare le spese per categoria e applicato filtri interattivi (slicer) per facilitarne l'analisi.
@@ -73,12 +73,12 @@ L'avanzo annuale (entrate meno tutte le uscite, inclusi i contributi destinati a
 
 **Quali sono i mesi più costosi?**
 
-Nel riepilogo mensile del 2019, la spesa media si attesta intorno a 2.874 €. Luglio è il mese con le spese più elevate (3.546 €, il 23% sopra la media), seguito da dicembre (3.214 €) e marzo (3.087 €). Giugno è invece il mese meno costoso, con 2.539 €. Il picco di luglio coincide con le spese legate ai viaggi estivi, mentre quello di dicembre è associato alle festività. Si tratta quindi di costi prevedibili che dovrebbero essere pianificati in anticipo, anziché essere assorbiti dal saldo mensile.
+Nel riepilogo mensile del 2019, la spesa media si attesta intorno a 2.874 €. Luglio è il mese con le spese più elevate (3.546 €, il 23% sopra la media), seguito da Dicembre (3.214 €) e Marzo (3.087 €). Giugno è invece il mese meno costoso, con 2.539 €. Il picco di Luglio coincide con le spese legate ai viaggi estivi, mentre quello di Dicembre è associato alle festività. Si tratta quindi di costi prevedibili che dovrebbero essere pianificati in anticipo, anziché essere assorbiti dal saldo mensile.
 
 
 **Come si presenta un mese tipo?**
 
-Nel registro delle transazioni di febbraio, a fronte di entrate pari a 3.100 € e uscite pari a 2.768 €, il saldo risultante è di 332 €, equivalente al 10,7% delle entrate. Le Utenze rappresentano da sole il 48% delle spese del mese. Inoltre, il totale di 2.768 € registrato a febbraio coincide con il valore riportato nel riepilogo annuale delle spese mensili.
+Nel registro delle transazioni di Febbraio, a fronte di entrate pari a 3.100 € e uscite pari a 2.768 €, il saldo risultante è di 332 €, equivalente al 10,7% delle entrate. Le Utenze rappresentano da sole il 48% delle spese del mese. Inoltre, il totale di 2.768 € registrato a Febbraio coincide con il valore riportato nel riepilogo annuale delle spese mensili.
 
 **Come monitorare un evento specifico?**
 
@@ -87,13 +87,11 @@ Il budget del viaggio ammonta complessivamente a 767 €. Volo e hotel rappresen
 
 ## Suggerimenti
 
-*formulate per l'utente ipotetico di questo budget.*
-
 - **Concentrarsi prima sui costi fissi:** Utenze e Trasporti rappresentano circa il 58% delle spese. Una revisione dei contratti assicurativi, delle utenze domestiche e dei trasporti avrebbe quindi un impatto maggiore rispetto al taglio di piccoli acquisti discrezionali.
-- **Automatizzare il risparmio:** I contributi destinati ai risparmi sono diminuiti nonostante la crescita dell'avanzo di bilancio. Impostare un trasferimento automatico all'inizio di ogni mese, calcolato come percentuale delle entrate, permetterebbe di tutelare l'obiettivo di risparmio.
-- **Pianificare la stagionalità delle spese:** Luglio e dicembre registrano spese superiori del 12-23% rispetto alla media mensile. Accantonare ogni mese una somma fissa per affrontare questi periodi eviterebbe di intaccare il saldo disponibile.
-- **Pianificare le vacanze come categoria autonoma:** Le Vacanze rappresentano la principale categoria di spesa in crescita e meritano quindi un obiettivo di budget annuale dedicato.
-- **Mantenere un monitoraggio regolare:** Registrare le transazioni ogni settimana e aggiornare le tabelle pivot consente di mantenere la dashboard affidabile come strumento di supporto alle decisioni.
+- **Automatizzare il risparmio:** i contributi destinati ai risparmi sono diminuiti nonostante la crescita dell'avanzo di bilancio. Impostare un trasferimento automatico all'inizio di ogni mese, calcolato come percentuale delle entrate, permetterebbe di tutelare l'obiettivo di risparmio.
+- **Pianificare la stagionalità delle spese:** Luglio e Dicembre registrano spese superiori del 12-23% rispetto alla media mensile. Accantonare ogni mese una somma fissa per affrontare questi periodi eviterebbe di intaccare il saldo disponibile.
+- **Pianificare le vacanze come categoria autonoma:** le Vacanze rappresentano la principale categoria di spesa in crescita e meritano quindi un obiettivo di budget annuale dedicato.
+- **Mantenere un monitoraggio regolare:** registrare le transazioni ogni settimana e aggiornare le tabelle pivot consente di mantenere la dashboard affidabile come strumento di supporto alle decisioni.
 
 ## Competenze
 
@@ -102,13 +100,13 @@ Il budget del viaggio ammonta complessivamente a 767 €. Volo e hotel rappresen
 - Analisi dei principali fattori di costo
 - Analisi dei trend e degli scostamenti
 - Analisi della stagionalità
-- Elaborazione di insight e formulazione di raccomandazioni
+- Elaborazione di insight e formulazione di suggerimenti
 
 **Microsoft Excel**
 - Tabelle pivot e grafici pivot
 - Filtri interattivi (Slicer)
 - Intervalli denominati dinamici e grafici dinamici
-- Controlli modulo (scorrimento e zoom)
+- Controlli modulari (scorrimento e zoom)
 - Convalida dei dati e menu a discesa
 - Formule INDEX / MATCH, CHOOSE, SUM e formule di ricerca
 - Formattazione condizionale
@@ -116,7 +114,7 @@ Il budget del viaggio ammonta complessivamente a 767 €. Volo e hotel rappresen
 
 ## Dati
 
-I dati sono puramente illustrativi e sono stati creati esclusivamente per finalità di portfolio. Non contengono informazioni finanziarie o personali reali relative ad alcun individuo. Sono stati realizzati per simulare un budget familiare realistico, comprendente bollette ricorrenti, acquisti quotidiani e un viaggio. L'intera struttura, le formule, le tabelle pivot, i grafici, le analisi e le raccomandazioni sono stati progettati e realizzati autonomamente da me.
+I dati sono puramente illustrativi e sono stati creati esclusivamente per finalità di portfolio. Non contengono informazioni finanziarie o personali reali relative ad alcun individuo. Sono stati realizzati per simulare un budget familiare realistico, comprendente bollette ricorrenti, acquisti quotidiani e un viaggio. L'intera struttura, le formule, le tabelle pivot, i grafici, le analisi e i suggerimenti sono stati progettati e realizzati autonomamente da me.
 
 ## Cartelle e File
 
